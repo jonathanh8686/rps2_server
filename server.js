@@ -162,4 +162,5 @@ app.get("/", (req, res) => {
 
 
 const port = 3123;
+console.log(`Running RPS2 on port ${port}`)
 httpServer.listen(port)
