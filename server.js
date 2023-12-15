@@ -156,10 +156,9 @@ function checkNameValid(name) {
 }
 
 app.get("/", (req, res) => {
-    console.log("Pinged.")
     res.send("Pong!")
 })
 
 
-const port = process.env.PORT || 3000;
+const port = 3123
 httpServer.listen(port)
